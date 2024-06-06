@@ -1,0 +1,55 @@
+
+@import "colors";
+footer{
+  display: flex;
+  flex-direction: column;
+	background-color: #24262b;
+  color: $first;
+height: 200px;
+padding: 20px;
+justify-content: center;
+align-items: center;
+width: 100%;
+
+>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+
+  
+}
+
+
+}
+.ele{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  color: $first;
+
+ >a{
+  color: $first;
+ }
+ &:hover{
+  filter: invert(1);
+  cursor: pointer;
+ }
+
+ 
+}
+.head{
+  background-color: black;
+  width: 219.5vh;
+  height: 100px;
+  padding: 10px;
+display: flex;
+justify-content: center;
+position: relative;
+bottom: -19px;
+// left: 20px;
+
+}
